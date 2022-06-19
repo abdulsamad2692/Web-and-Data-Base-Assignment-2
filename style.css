@@ -1,0 +1,127 @@
+body{
+   padding: 10px 10 10 200px;
+}
+#menu{
+  display: flex;   
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-left: 75px;
+  margin-right: 50px;
+
+}
+#menu img{ 
+    width: 120px;
+}
+
+  h1{
+    font-family: arial;
+  }
+  
+  #menu > ul{
+    background: #feffff;
+    
+  }
+  #menu ul
+  {
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding: 1px;
+    margin-right: 10px;
+    
+  }
+  
+  #menu ul a
+  {
+    display:block;
+    color:rgb(83, 201, 89);
+    text-decoration:none;
+    font-weight:700;
+   font-size: 15px;
+    line-height:32px;
+    padding:0 25px;
+    font-family:Helvetica,Arial,sans-serif;
+    
+  }
+  
+  #menu ul li
+  {
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+  }
+  
+  
+  #menu ul li:hover
+  {
+    /*background:#f6f6f6*/
+    background: #ffffff;
+  }
+  
+  #menu ul ul
+  {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#ffffff;
+    padding:0
+  }
+  
+  #menu ul ul li
+  {
+    float:none;
+    width:200px;
+    border-left: 3px solid #f7faf8;
+  }
+  #menu ul ul li:hover{
+    border-left: 3px solid #ebeff3;
+  }
+  
+  #menu ul ul a
+  {
+    line-height:120%;
+    padding:10px 15px
+  }
+  
+  #menu ul ul ul
+  {
+    top:-4px;
+    left:100%
+  }
+  
+  #menu ul li:hover > ul
+  {
+    display:block
+  }
+  #menu ul  li div{
+    font-family: "Axiforma", Sans-serif;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #00AA2F;
+    border-style: solid;
+    border-width: 1.5px 1.5px 1.5px 1.5px;
+    border-color: #00AA2F;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 50px;
+
+  }
+  #menu ul  li div a{
+   cursor: pointer;
+   color: #ffffff;
+   display: flex;
+
+  }
+  
+  #menu ul  li div :hover{
+      background-color: #ffffff;
+      color: #00AA2F;
+      
+  }
+#bgimg img{
+  background-color: #00AA2F;
+}
+  
+ 
